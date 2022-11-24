@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/*RESET*/
+*{
+    /*PADRÃO*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-color:
+     #f0f0f0;
+    font-family: 'Inter';
+}
+
+/*HEADER*/
+header{
+    height: 20vh;
+}
+
+header .margem{
+    height: 100%;
+}
+
+.margem{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+ul li{
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:palevioletred;
+}
+
+/*SECTION1*/
+.section1 .margem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.section1{
+    padding: 5rem 0;
+}
+
+.section1 .aboutTheProject{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.section1 .aboutTheProject h1{
+    color: #f51ba3;
+    font-size: 2.5rem;
+}
+
+.section1 .aboutTheProject button{
+    width: 14rem;
+    padding: 1rem;
+    font-family: 'Inter';
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #457eff;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.section1 .aboutTheProject button:hover{
+    filter: brightness(120%);
+}
+
+/*SECTION2*/
+.section2 .margem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.section2{
+    padding: 5rem 0;
+    background-color: #457eff;
+    flex-wrap: wrap;
+}
+
+.section2 .margem h1{
+    color: white;
+}
+.section2 .margem .cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.section2 .margem .cards .card{
+    background-color: white;
+    border-radius: 0.5rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section2 .margem .cards .card p{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
+footer{
+    padding: 2rem 0;
+    background-color: #336ff8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+}
