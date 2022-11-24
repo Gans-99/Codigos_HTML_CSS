@@ -1,0 +1,57 @@
+
+/*comentário*/
+
+body{
+    background-color: burlywood;
+}
+
+h1{
+    color:red;
+}
+
+p{
+    color:brown;
+}
+
+.titulo-principal{
+    background-color: aqua;
+    color: none;
+    letter-spacing: 10px;
+}
+
+#titulo-secundario{
+    background-color: purple;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: aquamarine;
+    border-color: red;
+    text-transform: uppercase;
+}
+
+.btn{
+    padding: 20px;
+    margin: 50px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 10px solid black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul li{
+    padding: auto;
+    margin: 15px;
+}
